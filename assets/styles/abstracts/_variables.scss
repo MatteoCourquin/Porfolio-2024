@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url('/fonts/CabinetGrotesk.ttf') format('truetype');
+  font-display: auto;
+}
+
+// COLORS
+$color-white: #fff;
+$color-black: #333;
+$color-grey: #ffffff37;
+
+// FONTS
+$font-cabinet-grotesk: 'Cabinet Grotesk', sans-serif;
+
+// RADIUS
+$radius-default: 20px;
+
+// TRANSITIONS
+$transition-default: all 0.15s ease-in-out;
+
+// PADDING
+$padding-x-default: clamp(20px, 8vw, 100px);
+$padding-y-default: clamp(20px, 8vh, 100px);
+$padding-x-button: 20px;

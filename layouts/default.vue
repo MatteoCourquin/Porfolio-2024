@@ -1,7 +1,8 @@
 <template>
   <div>
     <Header />
-    <main>
+    <Burger />
+    <main class="h-[300vh]">
       <slot />
     </main>
   </div>

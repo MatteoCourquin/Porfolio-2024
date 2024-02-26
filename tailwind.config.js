@@ -10,7 +10,14 @@ export default {
     './error.vue',
   ],
   theme: {
-    extend: {},
+    extend: {
+      padding: {
+        header: '92px',
+      },
+      colors: {
+        black: '#333',
+      },
+    },
   },
   plugins: [],
 };
